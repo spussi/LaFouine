@@ -9,18 +9,36 @@
 
     </head>
     <body>
-        <img src="Content/Img/TopImage.jpg" alt="Photo complête de la Fouine" id="TopImage">
+        <img src="Content/Img/TopImage.jpg" alt="Photo complête de la Fouine" id="TopImage"><br><br>
 
-        <p id="Name">Fouine d'Europe</p>
+        <a id="Name" href="https://fr.wikipedia.org/wiki/Fouine">Fouine d'Europe</a>
         <p id="SciName">Martes foina</p>
 
-        <p id="GeneralDesc"></p>
+        <table>
+            <tr>
+                <td id="GeneralDesc">
+                    <p>Placeholder pour la descriprion générale de l'animal </p>
+                </td>
+                <td>
+                    <model-viewer   id="Fouine3D"
+                                    alt="Scan 3D d'une taxidermie d'une fouine" 
+                                    src="Content/Models/3DFouine.glb"
+                                    poster="Content/Img/IMG_1470.jpg"
+                                    camera-controls>
+                    </model-viewer>
+                </td>
+            </tr>
+        </table>
 
-        <model-viewer   id="Fouine3D"
-                        alt="Scan 3D d'une taxidermie d'une fouine" 
-                        src="Content/Models/3DFouine.glb"
-                        poster="Content/Img/IMG_1470.jpg"
-                        camera-controls>
-        </model-viewer>
+        <br><br><br>
+
+        <table id="SpecificDesc">
+            <tr>
+                <td><img src="Content/Img/IMG_1458.jpg" alt="Photo de la dentition de la Fouine n°1"></td>
+                <td>Placeholder pour la description de la dentition de l'animal</td>
+                <td><img src="Content/Img/IMG_1457.jpg" alt="Photo de la dentition de la Fouine n°2"></td>
+            </tr>
+        </table>
+
     </body>
 </html>
