@@ -6,15 +6,21 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css" type="text/css">
         <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
     </head>
     <body>
         <img src="Content/Img/TopImage.jpg" alt="Photo complête de la Fouine" id="TopImage">
-        
-        <div id="Fouine3D">
-            <model-viewer   alt="Scan 3D d'une taxidermie d'une fouine" 
-                            src="Content/Models/3DFouine.glb"
-                            camera-controls>
-            </model-viewer>
-        </div>
+
+        <p id="Name">Fouine d'Europe</p>
+        <p id="SciName">Martes foina</p>
+
+        <p id="GeneralDesc"></p>
+
+        <model-viewer   id="Fouine3D"
+                        alt="Scan 3D d'une taxidermie d'une fouine" 
+                        src="Content/Models/3DFouine.glb"
+                        poster="Content/Img/IMG_1470.jpg"
+                        camera-controls>
+        </model-viewer>
     </body>
 </html>
