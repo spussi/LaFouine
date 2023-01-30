@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>La Fouine</title>
+        <link rel="icon" type="image/png" href="Content/Img/TitleIcon.jpg"/>
 
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css" type="text/css">
@@ -17,9 +18,9 @@
         <table>
             <tr>
                 <td id="GeneralDesc">
-                    <p>Placeholder pour la descriprion générale de l'animal </p>
+                    <p>Placeholder de la description lambda de la fouine</p>
                 </td>
-                <td>
+                <td rowspan="2">
                     <model-viewer   id="Fouine3D"
                                     alt="Scan 3D d'une taxidermie d'une fouine" 
                                     src="Content/Models/3DFouine.glb"
@@ -28,15 +29,17 @@
                     </model-viewer>
                 </td>
             </tr>
+            <tr><td colspan ="1"><img src="Content/Img/Beech_Marten_area.png" alt="Carte de la répartirion de la Fouine européenne." id="Map"></td></tr>
+
         </table>
 
-        <br><br><br>
+        <br><br>
 
         <table id="SpecificDesc">
             <tr>
-                <td><img src="Content/Img/IMG_1458.jpg" alt="Photo de la dentition de la Fouine n°1"></td>
+                <td><img src="Content/Img/IMG_1458.jpg" alt="Photo de la dentition de la Fouine n°1" class="SpecificImg"></td>
                 <td>Placeholder pour la description de la dentition de l'animal</td>
-                <td><img src="Content/Img/IMG_1457.jpg" alt="Photo de la dentition de la Fouine n°2"></td>
+                <td><img src="Content/Img/IMG_1457.jpg" alt="Photo de la dentition de la Fouine n°2" class="SpecificImg"></td>
             </tr>
         </table>
 

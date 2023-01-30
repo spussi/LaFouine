@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(207, 206, 203);
+    background-color: rgb(202, 195, 175);
     text-align: center;
 }
 
@@ -38,6 +38,15 @@ model-viewer {
 }
 
 #SpecificDesc {
+    width: fit-content;
     margin: auto;
     font-size: 150%;
+}
+
+img.SpecificImg {
+    width: fit-content;
+}
+
+#Map {
+    width: 60%;
 }
