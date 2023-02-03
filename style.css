@@ -59,7 +59,32 @@ img.SpecificImg {
     width: 50%;
 }
 
-table {
+table.Separator {
     border: 3px solid rgb(241, 223, 163);
     border-radius: 3px;
+}
+
+.Taxonomie {
+    border-collapse: collapse;
+    border: 2px solid white;
+    border-radius: 2px;
+    font-size: larger;
+    margin-left: 27%;
+    margin-right: auto;
+}
+
+.Taxonomie thead {
+    font: bold;
+    background-color: rgba(185, 185, 185, 0.644);
+}
+
+.Taxonomie td {
+    border-collapse: collapse;
+    border: 2px solid white;
+    border-radius: 2px;
+    padding: 3px;
+}
+
+.Spécificité {
+    background-color: rgba(245, 231, 154, 0.356);
 }
