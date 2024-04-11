@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>La Fouine</title>
+        <link rel="icon" type="image/png" href="Content/Img/TitleIcon.jpg"/>
+
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+    </head>
+    <body>
+        <img src="Content/Img/TopImage.jpg" alt="Photo complête de la Fouine" id="TopImage"><br><br>
+
+        <a id="Name" href="https://fr.wikipedia.org/wiki/Fouine">Fouine d'Europe</a>
+        <p id="SciName">Martes foina</p>
+
+        <table class="Separator">
+            <tr>
+                <td id="GeneralDesc">
+                    <p id="GeneralDescTxt"><u>La Fouine</u> (ou <i>Martes Foina</i>) est un mammifère omnivore avec des préférences pour la viande. C'est un animal court sur patte et originaire
+                        d’Europe et d’Asie. Au pelage gris-brun, elle est principalement active la nuit.
+                        Sa longueur varie entre 40 et 54 centimètres et possède une masse d’environ 1,6kg pour une espérance de vie de 3 à 12
+                        ans. Leur habitat est très varié, principalement en campagne dans les bois mais aussi à proximité des habitations et proches
+                        des villes; dans les granges et greniers.
+                        <br>
+                        <u>C’est un animal de nature solitaire</u>, chaque individu possède son propre territoire de 500m à quelques kilomètres carrés (et il est à
+                        noter que celui des mâles est en moyenne 2 fois plus grand que celui des femelles.)
+                        Elle a peu de prédateurs naturels et est proche du sommet de la chaine alimentaire. Seul des animaux comme les renard, hiboux
+                        et loups peuvent lui poser souci.
+                        </p>
+                </td>
+                <td>
+                    <model-viewer   id="Fouine3D"
+                                    alt="Scan 3D d'une taxidermie d'une fouine" 
+                                    src="Content/Models/3DFouine.glb"
+                                    poster="Content/Img/IMG_1470.jpg"
+                                    camera-controls
+                                    camera-target="0m 30cm 0m">
+                    </model-viewer>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="Content/Img/Beech_Marten_area.png" alt="Carte de la répartirion de la Fouine européenne." id="MapImg" title="La zone en rouge représente la présence de fouines sur la carte."></td>
+                <td><table class="Taxonomie">
+
+                    <thead>
+                    <tr>
+                        <td>Taxon</td>
+                        <td>Nom du Taxon</td>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td class="Spécificité">Genre</td>
+                            <td>Martes Pinel</td>
+                        </tr>
+                        <tr>
+                            <td class="Spécificité">Sous-Famille</td>
+                            <td>Martinae</td>
+                        </tr>
+                        <tr>
+                            <td class="Spécificité">Famille</td>
+                            <td>Mustelidae Fischer</td>
+                        </tr>
+                        <tr>
+                            <td class="Spécificité">Ordre</td>
+                            <td>Carnivora Bowditch</td>
+                        </tr>
+                        <tr>
+                            <td class="Spécificité">Classe</td>
+                            <td>Mammalia Linnaeus</td>
+                        </tr>
+                        <tr>
+                            <td class="Spécificité">Phylum</td>
+                            <td>Chordata Haeckel</td>
+                        </tr>
+                        <tr>
+                            <td class="Spécificité">Règne</td>
+                            <td>Animalia Linnaeus</td>
+                        </tr>
+                    </tbody>
+                </table></td>
+            </tr>
+
+        </table>
+
+        <br><br>
+
+        <table id="SpecificDesc" class="Separator">
+            <tr>
+                <td><img src="Content/Img/IMG_1458.jpg" alt="Photo de la dentition de la Fouine n°1" class="SpecificImg"></td>
+                <td>
+                    <p> 
+                        <u>La Fouine</u> est opportuniste et se nourrit, selon les saisons, de petits mammifères, de fruits, d’oiseaux, d’œufs, de déchets
+                        trouvés près des habitations. Mais les plus jeunes, vers les deux premières semaines de leur vie, se contentent de manger végétarien avant d'apprendre à chasser, et si la nourriture est abondante, la Fouine va accumuler la nouriture dans des réserves.
+                        <br>
+                        <u>Sa dentition</u> est composée de deux rangées principales, une en haut et une en bas possédant chaqune des canines proéminentes et des incisives acérées qui possèdent des dents juste derrière elles pour avoir une meilleure prise sur sa proie. Enfin, les autres dents sont tout aussi pointues et aiguisées. 
+                    </p>
+                </td>
+                <td><img src="Content/Img/IMG_1457.jpg" alt="Photo de la dentition de la Fouine n°2" class="SpecificImg"></td>
+            </tr>
+        </table>
+
+        <br>
+        <p id="Sources">Sources: <a href="https://fr.wikipedia.org/wiki/Fouine">Wikipedia</a>, <a href="http://droitnature.free.fr/NouveauSite/fouine.htm">L'office national de la chasse et de la faune sauvage</a>, <a href="https://www.notrenature.be/banque-des-especes/fouine">Notre nature</a></p>
+    </body>
+</html>

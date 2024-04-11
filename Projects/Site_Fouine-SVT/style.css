@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(202, 195, 175);
+    text-align: center;
+}
+
+model-viewer {
+    width: 500px;
+    height: 400PX;
+    padding-right: 60px;
+}
+  
+
+#TopImage {
+    width: 80%;
+}
+
+#Name {
+    text-decoration: none;
+    color: black;
+    font-size: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(176, 190, 202);
+    border: 5px solid rgb(176, 190, 202);
+    border-radius: 3px;
+}
+
+#SciName {
+    font-size: 50px;
+    font-style: italic;
+    text-shadow: -3px 3px 2px rgba(0, 0, 0, 0.411);
+    color: rgb(59, 61, 61);
+}
+
+#GeneralDesc {
+    width: 70%;
+    font-size: 150%;
+}
+
+#SpecificDesc {
+    width: fit-content;
+    margin: auto;
+    font-size: 150%;
+}
+
+img.SpecificImg {
+    width: fit-content;
+}
+
+#MapImg {
+    width: 80%;
+}
+
+#GeneralDescTxt {
+    text-align: left;
+}
+
+#SecondaryImg {
+    width: 50%;
+}
+
+table.Separator {
+    border: 3px solid rgb(241, 223, 163);
+    border-radius: 3px;
+}
+
+.Taxonomie {
+    border-collapse: collapse;
+    border: 2px solid white;
+    border-radius: 2px;
+    font-size: larger;
+    margin-left: 27%;
+    margin-right: auto;
+}
+
+.Taxonomie thead {
+    font: bold;
+    background-color: rgba(185, 185, 185, 0.644);
+}
+
+.Taxonomie td {
+    border-collapse: collapse;
+    border: 2px solid rgba(255, 255, 255, 0.678);
+    border-radius: 2px;
+    padding: 3px;
+}
+
+.Spécificité {
+    background-color: rgba(245, 231, 154, 0.356);
+}
